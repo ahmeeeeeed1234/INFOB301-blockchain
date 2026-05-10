@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target/
+**/target/
+*.rs.bk
+
+# Cargo lock can be committed for binaries; keep it
+# Cargo.lock  -> we keep it
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
